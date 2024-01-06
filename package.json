@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "npx tsc",
+    "clean": "npx tsc --build --clean"
+  },
+  "dependencies": {
+    "@minecraft/server": "^1.7.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

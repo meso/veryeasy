@@ -1,0 +1,27 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "サバイバルを楽にするアドオン",
+        "description": "レベルが上がると強くなり、敵を倒すとリジェネがかかる",
+        "uuid": "9ece5cce-ec5d-47d7-8de0-6cbc586e000e",
+        "version": [ 1, 0, 0 ],
+        "min_engine_version": [ 1, 20, 50 ]
+    },
+    "modules": [
+
+        {
+            "description": "Script API",
+            "type": "script",
+            "language": "javascript",
+            "uuid": "a040e431-94d1-4f40-9468-bc35b53ee567",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.7.0"
+        }
+    ]
+}
